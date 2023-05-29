@@ -1,15 +1,15 @@
 import React from "react";
-{ AboutUs } from "./AboutUs"
-{ ContactUs } from "./ContactUs"
-{ Home } from "./Home"
-{ PopularBlog } from "./PopularBlog"
-{ ProvacyPolicy } from "./ProvacyPolicy"
-{ sidebar } from "./Sidebar"
+import { AboutUs , ContactUs , Home , PopularBlog , ProvacyPolicy , Sidebar } from index.js
 
 function App() {
   return (
     <div className="App">
-
+      <AboutUs />
+      <ContactUs />
+      <Home />
+      <PopularBlog />
+      <ProvacyPolicy /> 
+      <sidebar/>
       </div>
   )
 }
