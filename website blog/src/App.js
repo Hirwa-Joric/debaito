@@ -1,5 +1,8 @@
 import React from "react";
-import { AboutUs , ContactUs , Home , PopularBlog , PrivacyPolicy , Sidebar } from "./components/index"
+import { AboutUs, ContactUs, Home, PopularBlog, PrivacyPolicy, Sidebar } from "./components/index"
+import { BrowserRouter} from 'react-router-dom';
+
+
 
 function App() {
   return (
