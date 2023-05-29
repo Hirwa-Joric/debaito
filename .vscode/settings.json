@@ -71,5 +71,6 @@
         "yml",
         "COBOL",
         "ACUCOBOL"
-    ]
+    ],
+    "peacock.color": "#215732"
 }

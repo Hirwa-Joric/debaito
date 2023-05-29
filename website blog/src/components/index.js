@@ -1,0 +1,6 @@
+export { AboutUs } from "./AboutUs"
+export { ContactUs } from "./ContactUs"
+export { Home } from "./Home"
+export { PopularBlog } from "./PopularBlog"
+export { ProvacyPolicy } from "./ProvacyPolicy"
+export { sidebar } from "./Sidebar"
