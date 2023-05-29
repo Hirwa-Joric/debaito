@@ -1,5 +1,5 @@
 import React from "react";
-import { AboutUs , ContactUs , Home , PopularBlog , ProvacyPolicy , Sidebar } from index.js
+import { AboutUs , ContactUs , Home , PopularBlog , PrivacyPolicy , Sidebar } from "./components/index"
 
 function App() {
   return (
@@ -8,8 +8,8 @@ function App() {
       <ContactUs />
       <Home />
       <PopularBlog />
-      <ProvacyPolicy /> 
-      <sidebar/>
+      <PrivacyPolicy /> 
+      <Sidebar/>
       </div>
   )
 }
