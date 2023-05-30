@@ -1,13 +1,12 @@
 import React from "react";
 import { AboutUs, ContactUs, Home, PopularBlog, PrivacyPolicy, Sidebar } from "./components/index"
-import { BrowserRouter} from 'react-router-dom';
+import {Route , Routes} from 'react-router-dom'
 
 
 
 function App() {
   return (
-    <div className="App">
-      
+      <div classNamte="App">
       <AboutUs />
       <ContactUs />
       <Home />
