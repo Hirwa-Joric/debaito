@@ -1,22 +1,11 @@
 import React from "react";
 import { AboutUs, ContactUs, Home, PopularBlog, PrivacyPolicy } from "./components/index"
 import Layout from "./components/layout";
-import {Route , Router, Routes} from 'react-router-dom'
+import {Route, Routes} from 'react-router-dom'
 
 
 
 function App() {
-  // return (
-  //     <div classNamte="App">
-  //     <AboutUs />
-  //     <ContactUs />
-  //     <Home />
-  //     <PopularBlog />
-  //     <PrivacyPolicy /> 
-  //     <Sidebar/>
-  //     </div>
-  // )
-  
   return (
     <>
       <Routes>
