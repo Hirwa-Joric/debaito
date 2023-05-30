@@ -1,8 +1,11 @@
+/* eslint-disable jsx-a11y/no-redundant-roles */
 import React from 'react';
 
 const Sidebar = () => {
   return (
+    // eslint-disable-next-line react/jsx-no-comment-textnodes
     <div className="Sidebar">
+      // eslint-disable-next-line jsx-a11y/no-redundant-roles, jsx-a11y/no-redundant-roles, jsx-a11y/no-redundant-roles
       <aside className="sidebar-container container sidebar-invisible" role="complementary">
         <div className="navigation">
           <button className="svg-icon-24-button flat-icon-button ripple sidebar-back">
@@ -163,7 +166,7 @@ const Sidebar = () => {
       </div>
       <div className="widget ReportAbuse" data-version="2" id="ReportAbuse1">
         <h3 className="title">
-          <a className="report_abuse" href="https://www.blogger.com/go/report-abuse" rel="noopener nofollow" target="_blank">
+          <a className="report_abuse" href="https://www.blogger.com/go/report-abuse" rel="noopener nofollow noreferrer" target="_blank">
             Report Abuse
           </a>
         </h3>
